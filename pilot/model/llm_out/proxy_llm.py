@@ -23,6 +23,7 @@ def proxyllm_generate_stream(
         "wenxin_proxyllm": wenxin_generate_stream,
         "tongyi_proxyllm": tongyi_generate_stream,
         "zhipu_proxyllm": zhipu_generate_stream,
+        "lenovo_proxyllm":chatgpt_generate_stream,
     }
     model_params = model.get_params()
     model_name = model_params.model_name

@@ -58,6 +58,7 @@ LLM_MODEL_CONFIG = {
     "wenxin_proxyllm": "wenxin_proxyllm",
     "tongyi_proxyllm": "tongyi_proxyllm",
     "zhipu_proxyllm": "zhipu_proxyllm",
+    "lenovo_proxyllm":"lenovo_proxyllm",
     "llama-2-7b": os.path.join(MODEL_PATH, "Llama-2-7b-chat-hf"),
     "llama-2-13b": os.path.join(MODEL_PATH, "Llama-2-13b-chat-hf"),
     "llama-2-70b": os.path.join(MODEL_PATH, "Llama-2-70b-chat-hf"),
@@ -90,6 +91,7 @@ EMBEDDING_MODEL_CONFIG = {
     "sentence-transforms": os.path.join(MODEL_PATH, "all-MiniLM-L6-v2"),
     "proxy_openai": "proxy_openai",
     "proxy_azure": "proxy_azure",
+    "proxy_lenovo":"proxy_lenovo",
 }
 
 # Load model config

@@ -20,6 +20,8 @@ class EmbeddingLoader:
             from langchain.embeddings import OpenAIEmbeddings
 
             return OpenAIEmbeddings(**param.build_kwargs())
+        # elif model_name in ["proxy_lenovo"]:
+            # return LenovoAIEmbeddings(**param.build_kwargs())
         else:
             from langchain.embeddings import HuggingFaceEmbeddings
 
